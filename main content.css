@@ -1,96 +1,119 @@
-.maincontent {
-    top: 350px;
-    background: #f2f2f2;
-    position: relative;
-    
+    .maincontent {
+        top: 350px;
+        background: #f2f2f2;
+        position: relative;
+        display: flex;
+    }
 
-}
+    /* album display */
 
-/* album display */
+    .albumgrid {
+        display: flex;
+       margin-left: 10%;
+    }
 
-.albumgrid {
-    display: flex;
-}
+    .album1 {
+        height: 100px;
+        width: 100px;
+    }
 
-.album1 {
-    height: 100px;
-    width: 100px;
-}
+    .album2 {
+        height: 100px;
+        width: 100px;
+    }
 
-.album2 {  
-    height: 100px;
-    width: 100px;
-}
+    .album {
+        margin: 10px;   
+        height: 100px;
+        width: 100px;
+        border: 1px solid white;
+        background-color: red;
+    }
 
-.album {
-    margin: 10px;   
-    height: 100px;
-    width: 100px;
-    border: 1px solid white;
-    background-color: red;
-}
-
-/*reserves space for the gallery titles hottest album recent & hottest album this month*/
-
-
-
-.albumgallerytitlejustout {
-    width: 50%;
-    text-align: center;
-    margin: 0px;
-    display: inline-block;
-    font-family: 'Changa One', cursive;
-    color: red;
-}
-
-.albumgallerytitleofthemonth {
-    
-    text-align: center;
-    margin: 0px;
-    display: inline-block;
-    font-family: 'Changa One', cursive;
-    color: red;
-    font-size: 50px;
-}
-
-/* image grid made with flex */
+    /*reserves space for the gallery titles hottest album recent & hottest album this month*/
 
 
-.albumrow1 {
+    .albumgallery {
+        display: flex;
+        width: 50%;
+    }
 
-flex-direction: column;
-}
 
-.albumrow2 {
+    .albumgallerytitlejustout {
+        width: 100%;
+        text-align: center;
+        font-family: 'Changa One', cursive;
+        
+    }
 
-flex-direction: column;
-}
+    .albumgalleryofthemonth {
+        text-align: center;
+        width: 100%;
+        
+        
+    }
 
-.albumrow3 {
+    /* album description*/ 
 
-flex-direction: column;
-}
+    .albumofthemonthdescription {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .text {
+        width: 90%;
+        margin: 5px;
+        margin-left: 5%;
+        text-align: left;
+        line-height: 200%;
+        padding-bottom: 15px;
+        color: #2e2e2e2e;
+    } 
+    /* image grid made with flex */
 
-/* temporary album of the month */
 
-.albumofthemonthbox {
-    text-align: center;
-    width: 100%;
-    display: block;
-}
+    .albumrow1 {
 
-.albumofthemonth img {
-    
-    margin: 9px;
-    border: 1px solid   white;
-}
+    flex-direction: column;
+    }
 
-/*
-.maincontent {
-    top: 300px;
-    position: relative;
-    background: black;
-    display: flex;
-    padding-top: 9px;
-    color: white;
-    */
+    .albumrow2 {
+
+    flex-direction: column;
+    }
+
+    .albumrow3 {
+
+    flex-direction: column;
+    }
+
+    /* temporary album of the month */
+
+    .albumofthemonthbox {
+        display: inline-block;
+        width: 100%;
+        border: solid 1px black;
+    }
+
+    .albumofthemonth img {
+        width: 90%;
+        margin: 5px;
+        border: 5px solid gray;
+    }
+
+    .head1 {
+        font-family: 'Changa One', cursive;
+        
+    }
+
+
+
+    /*
+    .maincontent {
+        top: 300px;
+        position: relative;
+        background: black;
+        display: flex;
+        padding-top: 9px;
+        color: white;
+        */
