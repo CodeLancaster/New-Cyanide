@@ -1,0 +1,96 @@
+.maincontent {
+    top: 350px;
+    background: #f2f2f2;
+    position: relative;
+    
+
+}
+
+/* album display */
+
+.albumgrid {
+    display: flex;
+}
+
+.album1 {
+    height: 100px;
+    width: 100px;
+}
+
+.album2 {  
+    height: 100px;
+    width: 100px;
+}
+
+.album {
+    margin: 10px;   
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    background-color: red;
+}
+
+/*reserves space for the gallery titles hottest album recent & hottest album this month*/
+
+
+
+.albumgallerytitlejustout {
+    width: 50%;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    font-family: 'Changa One', cursive;
+    color: red;
+}
+
+.albumgallerytitleofthemonth {
+    
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    font-family: 'Changa One', cursive;
+    color: red;
+    font-size: 50px;
+}
+
+/* image grid made with flex */
+
+
+.albumrow1 {
+
+flex-direction: column;
+}
+
+.albumrow2 {
+
+flex-direction: column;
+}
+
+.albumrow3 {
+
+flex-direction: column;
+}
+
+/* temporary album of the month */
+
+.albumofthemonthbox {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.albumofthemonth img {
+    
+    margin: 9px;
+    border: 1px solid   white;
+}
+
+/*
+.maincontent {
+    top: 300px;
+    position: relative;
+    background: black;
+    display: flex;
+    padding-top: 9px;
+    color: white;
+    */
