@@ -40,11 +40,6 @@
     /*reserves space for the gallery titles hottest album recent & hottest album this month*/
 
 
-    .albumgallery {
-        display: flex;
-        
-    }
-
     .albumgallery h2 {
         text-align: center;
     }
