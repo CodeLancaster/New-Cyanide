@@ -5,61 +5,22 @@
         /*display: flex */
     }
 
-    /* album display */
-
-
-
-    .album1 {
-        height: 100px;
-        width: 100px;
-    }
-
-    .album2 {
-        height: 100px;
-        width: 100px;
-    }
-
-    .album {
-        margin: 5px;   
-        height: 100px;
-        width: 30%;
-        border: 1px solid white;
-        background-color: red;
-        display: inline-flex;
-    }
-
-    .album p {
-        margin: 0px;
-        margin-top: 2px;
-        padding-left: 5px;
-        overflow-y: hidden;
-        text-align: left;
-    }
-
-
     /*reserves space for the gallery titles hottest album recent & hottest album this month*/
 
-
-    .albumgallery h2 {
-        text-align: center;
-    }
-
-    .albumgallerytitlejustout {
-        width: 100%;
-        text-align: center;
-        font-family: 'Changa One', cursive;
-        
-    }
-
-    .albumgalleryofthemonth {
+    .galleryofthemonth {
         text-align: center;
         width: 100%;
-        
-        
     }
+
+    /* EMBEDDED ITEMS */
 
     .spotifylist {
         text-align: center;
+        width: 90%;
+    }
+
+    .youtubevideo {
+        width: 90%;
     }
 
     /* album description*/ 
@@ -72,38 +33,22 @@
         width: 90%;
         margin: 5px;
         margin-left: 5%;
-        text-align: center;
+        text-align: left;
         line-height: 200%;
         padding-bottom: 15px;
         color: #2e2e2e2e;
     } 
-    /* image grid made with flex */
-
-
-    .albumrow1 {
-
-    flex-direction: column;
-    text-align: center;
-    }
-
-    .albumrow2 {
-
-    flex-direction: column;
-    text-align: center;
-    }
-
-    .albumrow3 {
-
-    flex-direction: column;
-    text-align: center;
+    .textred {
+        color: red;
+        font-weight: bold;
     }
 
     /* temporary album of the month */
 
     .albumofthemonthbox {
         display: inline-block;
+        text-align: center;
         width: 100%;
-        border: solid 1px black;
     }
 
     .albumofthemonth img {
@@ -112,8 +57,8 @@
     }
 
     .head1 {
+        text-align: center;
         font-family: 'Changa One', cursive;
-        
     }
 
     
