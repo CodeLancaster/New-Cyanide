@@ -1,5 +1,52 @@
 footer {
-    background: white;
+    background: #222;
     position: relative;
-    bottom: 0px;
+    height: 165px;
+    border-top: 10px solid black;
+    color: white;
+    padding-top: 10px;
+}
+
+.footerclass {
+    text-align: center;
+    display: block;   
+}
+
+.footerlogo img {
+    height: 40px;
+    color: #838383;
+}
+
+
+.sociallinksboxfooter { 
+    display: block;
+    text-align: center;
+}
+
+.sociallinksboxfooter li {
+    list-style: none;
+    display: inline;
+    font-size: 25px;
+    padding: 0px;
+    
+}
+
+.sociallinksboxfooter ul {
+    padding: 0px;
+}
+
+.faf1 {
+color: #838383;
+}
+
+.copyright {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.allrightsreserved {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
