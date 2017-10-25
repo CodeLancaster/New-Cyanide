@@ -8,6 +8,7 @@
     margin-top: 0px;
     text-align: center;
     overflow: hidden;
+    border: 5px solid black;
 }
 
 .image-holder
@@ -61,4 +62,10 @@
     width: 10px;
     border-radius: 5px;
     background-color: brown;
+}
+
+.centertext {
+    margin: 5px;
+    text-align: left;
+    
 }
