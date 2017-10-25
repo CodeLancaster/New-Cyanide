@@ -38,7 +38,7 @@
 
 .button ul li a {
 	display: block;
-	padding: 21px 14px;
+	padding: 40px;
 	font-family: arial;
 	color: white;
     text-decoration: none;
@@ -52,7 +52,7 @@
     position: fixed;
     left: 0px;
     padding: 10px;
-    margin-top: 26px;
+    margin-top: 5px;
 	background-color: #fff;
     width: 100%;
 }
