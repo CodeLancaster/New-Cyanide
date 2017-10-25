@@ -3,55 +3,76 @@
     font-family: 'Changa One', cursive;
     color: white;
     text-align: center;
-    font-size: 4em;
+    font-size: 6em;
 }
 
 .textaboutus {
     text-align: center;
     font-family: 'Changa One', cursive;
-    font-size: 2em;
+    font-size: 4em;
 }
 
 .CJ {
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .Yoran {
-
-margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .aboutusinfo {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+
+.divimage {
+    display: block;
+    text-align: center;
 }
 
 .imageus1 {
     display: inline-flex;
     border: 2px solid #2f2f2f;
-    height: 350px;
-    width: 250px;
+    height: 650px;
+    width: 450px;
     margin-left: 1%;
-
-    
 }
 
 .imageus2 {
-    display: inline-flex;
+    display: inline-block;
     border: 2px solid #2f2f2f;
-    height: 350px;
-    width: 250px;
+    height: 650px;
+    width: 450px;
     margin-left: 1%;
-
-    
 }
 
 .info {
-    display: flex;
+    display: relative;
     flex-direction: row;
-    font-family: 'Changa One', 
+    font-family: 'Changa One', ;
+    font-size: 2em;
+    text-align: center;
 }
 
 p.info {
     margin: 10px;
+}
+
+
+/* desktop */
+
+@media only screen and (min-width:1024px) {
+    .info {
+        font-size: 1.2em;
+        display: flex;
+        text-align: left;
+    }
+    .imageus1 {
+        height: 350px;
+        width: 250px;
+    }
+    .imageus2 {
+        height: 350px;
+        width: 250px;
+    }
 }
