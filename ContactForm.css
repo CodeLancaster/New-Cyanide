@@ -60,3 +60,92 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: red;
 }
+
+.maincontent {
+    top: 350px;
+    background: #f2f2f3;
+    position: relative;
+}
+
+.mainarticlenews {
+    
+    background: #f2f2f2;
+    position: relative;
+    padding: 10px;
+}
+/*reserves space for the gallery titles hottest album recent & hottest album this month*/
+
+.articleblock {
+    display: block;
+    padding: 10px;
+    background: white;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.articleblock img {
+    float: left;
+}
+
+.articleblock h3 {
+    margin: 0px;
+}
+
+.galleryofthemonth {
+    text-align: center;
+    width: 100%;
+}
+
+/* EMBEDDED ITEMS */
+
+.spotifylist {
+    text-align: center;
+    width: 90%;
+}
+
+.youtubevideo {
+    width: 90%;
+}
+
+/* album description*/ 
+
+.albumofthemonthdescription {
+    width: 100%;
+    
+}
+.text {
+    width: 90%;
+    margin: 5px;
+    margin-left: 5%;
+    text-align: left;
+    line-height: 200%;
+    padding-bottom: 15px;
+    color: #2e2e2e2e;
+} 
+.textred {
+    color: red;
+    font-weight: bold;
+}
+
+/* temporary album of the month */
+
+.albumofthemonthbox {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.albumofthemonth img {
+    margin: 5px;
+    border: 5px solid gray;
+}
+
+.head1 {
+    text-align: center;
+    font-family: 'Changa One', cursive;
+}
+
+
+@media only screen and (min-width: 1024px) {  
+    .logoimage {flex-direction: row;}
+}

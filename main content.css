@@ -15,7 +15,6 @@
 .articleblock {
     display: block;
     padding: 10px;
-    
     background: white;
     margin-bottom: 10px;
     overflow: auto;
@@ -84,3 +83,8 @@
 }
 
 
+@media only screen and (min-width: 1024px) {
+    .albumofthemonthbox {display: flex;}
+    .spotifylist {width: 90%; text-align: center;}
+    
+}
