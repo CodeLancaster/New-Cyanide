@@ -1,0 +1,58 @@
+.textstylingus {
+    text-align: center;
+    font-family: 'Changa One', cursive;
+    color: white;
+    text-align: center;
+    font-size: 4em;
+}
+
+.textaboutus {
+    text-align: center;
+    font-family: 'Changa One', cursive;
+    font-size: 2em;
+}
+
+.CJ {
+border: 1px solid black;
+margin-bottom: 10px;
+}
+
+.Yoran {
+
+margin-bottom: 10px;
+}
+
+.aboutusinfo {
+display: flex;
+flex-direction: column;
+}
+
+.imageus1 {
+    display: inline-flex;
+    border: 2px solid #2f2f2f;
+    height: 350px;
+    width: 250px;
+    margin-left: 1%;
+
+    
+}
+
+.imageus2 {
+    display: inline-flex;
+    border: 2px solid #2f2f2f;
+    height: 350px;
+    width: 250px;
+    margin-left: 1%;
+
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Changa One', 
+}
+
+p.info {
+    margin: 10px;
+}

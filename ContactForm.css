@@ -1,0 +1,62 @@
+.headstyling {
+    font-size: 5em;
+}
+
+.logosize {
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.contactformhead{
+    font-family: 'Changa One', cursive;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin: 5%;
+}
+
+.formtext {
+    font-family: 'Changa One', cursive;
+}
+
+.formtextnormal {
+    font-family: 'Changa One';
+}
+
+.styletextarea {
+    height:200px
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #2f2f2f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}

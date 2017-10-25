@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="slides.css">
     <link rel="stylesheet" href="centertext.css">
     <link rel="stylesheet" href="Homepage.css">
-    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="ContactForm.css">
     <title>Cyanide</title>
 </head>
 
@@ -100,55 +100,37 @@
         <!-- MAINCONTENT STARTS HERE!!! -->
 
 
-        <div class="maincontent">
-            <div class="mainarticle">
+        <div class="maincontent">                 
+           <div class="mainarticle"> 
+            
+            <div class="logoimage">
+                <div class="logosize">
+                    <img src="adjusted logo 2.png" class="logohomepage2" alt="logoCyanide">
+               </div>
 
-                <div class="logoimage">
-                    <img src="adjusted logo 1.png" class="logohomepage" alt="logoCyanide">
 
-
-                    <div class="infocontainer">
-                        <div class="aboutus">
-                            <h1 class="textstylingus"> About us </h1>
-                        </div>
-
-                        <div class="aboutusinfo">
-
-                            <div class="CJ">
-                                <p class="textaboutus"> Curwen Lancaster: </p>
-
-                                <div class="info">
-                                    <img src="CurwenLancaster.jpg" alt="Image Curwen Lancaster" class="imageus1">
-                                    <p class="info">
-                                        <!-- INFO CJ FILL -->
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="Yoran">
-                                <p class="textaboutus"> Yoran de Haan: </p>
-                                <div class="info">
-                                    <img src="YorandeHaan.png" alt="Image Yoran de Haan" class="imageus2">
-                                    <p class="info"> As you can see I am Yoran. (yes that is me to the left) <br>
-                                        <br> I'm 17 years old and I am attending college with Curwnen at Avans Hogeschool
-                                        Den Bosch. We both follow the same course "Informatica".<br> I live in Oss and I
-                                        am born in the Netherlands. This website is our end project and we are proud to present
-                                        it! We have put a lot of time into this project so we hope we have satisfied you
-                                        enough to get a good grade ;) <br>
-                                        <br> I really liked this project, because it is a mixutre between coding lines and
-                                        front-end design. I always liked creating things that look good (in my opinion ofcourse).
-
-                                        <br> You can hire us as your personal website design crew for only 99.99 $ per hour!
-                                        <br>
-                                        <br> I do not want to say that we are the best, but to be quiet honest with you, <br> we are ;)
-                                    </p>
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                <div class="contactformhead">
+                    <h1 class="headstyling"> Contact form </h1>
                 </div>
+
+                <div class="form">
+                        <form action="/action_page.php">
+                            <label for="fname" class="formtext">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name.." class="formtextnormal">
+                        
+                            <label for="lname" class="formtext">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name.." class="formtextnormal">
+                        
+
+                        
+                            <label for="subject" class="formtext">Suggestion /Feedback /Request</label>
+                            <textarea id="subject" name="subject" placeholder="Write something.." class="styletextarea formtextnormal"></textarea>
+                        
+                            <input type="submit" value="Submit">
+                          </form>
+                </div>
+
+        </div>
 
             </div>
 

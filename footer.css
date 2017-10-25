@@ -44,10 +44,16 @@ color: #838383;
     display: block;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: 'Changa One';
 }
 
 .allrightsreserved {
     display: block;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-family: 'Changa One';
+}
+
+a {
+    display: inline-block;
 }
