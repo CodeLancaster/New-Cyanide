@@ -12,9 +12,11 @@
         
         
     /* album display */
-    .albumgallery {
-        
+
+    a {
+        text-decoration: none;
     }
+
     .albumgrid {
         text-align: center;
         flex-wrap: wrap;
