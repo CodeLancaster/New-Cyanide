@@ -2,10 +2,32 @@
         top: 350px;
         background: #f2f2f2;
         position: relative;
-        /*display: flex */
     }
 
+    .mainarticlenews {
+        
+        background: #f2f2f2;
+        position: relative;
+        padding: 10px;
+    }
     /*reserves space for the gallery titles hottest album recent & hottest album this month*/
+
+    .articleblock {
+        display: block;
+        padding: 10px;
+        
+        background: white;
+        margin-bottom: 10px;
+        overflow: auto;
+    }
+
+    .articleblock img {
+        float: left;
+    }
+
+    .articleblock h3 {
+        margin: 0px;
+    }
 
     .galleryofthemonth {
         text-align: center;
